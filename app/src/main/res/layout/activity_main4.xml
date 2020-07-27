@@ -16,16 +16,13 @@
             android:id="@+id/imageView5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/img4"
-            android:contentDescription="@string/todo" />
+            android:contentDescription="@string/todo"
+            app:srcCompat="@drawable/img4" />
 
         <TextView
             android:id="@+id/textView16"
             android:layout_width="match_parent"
             android:layout_height="46dp"
-            android:layout_marginLeft="44dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="44dp"
             android:background="#7986CB"
             android:text="@string/prevention"
             android:textAlignment="center"
@@ -40,8 +37,7 @@
             android:layout_marginLeft="44dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="44dp"
-            android:text="@string/most_common_symptoms_n_fever_n_dry_cough_n_tiredness_n_n_less_common_symptoms_n_aches_and_pains_n_sore_throat_n_diarrhoea_n_conjunctivitis_n_headache_n_loss_of_taste_or_smell_n_a_rash_on_skin_or_discolouration_of_fingers_or_toes_n_n_n_to_prevent_the_spread_of_covid_19_n_clean_your_hands_often_use_soap_and_water_or_an_alcohol_based_hand_rub_n_maintain_a_safe_distance_from_anyone_who_is_coughing_or_sneezing_n_wear_a_mask_when_physical_distancing_is_not_possible_n_don_t_touch_your_eyes_nose_or_mouth_n_cover_your_nose_and_mouth_with_your_bent_elbow_or_a_tissue_when_you_cough_or_sneeze_n_stay_home_if_you_feel_unwell_n_if_you_have_a_fever_cough_and_difficulty_breathing_seek_medical_attention_n_calling_in_advance_allows_your_healthcare_provider_to_quickly_direct_you_to_the_right_health_facility_this_protects_you_and_prevents_the_spread_of_viruses_and_other_infections_nmasks_n_masks_can_help_prevent_the_spread_of_the_virus_from_the_person_wearing_the_mask_to_others_n_masks_alone_do_not_protect_against_covid_19_and_should_be_combined_with_physical_distancing_and_hand_hygiene_follow_the_advice_provided_by_your_local_health_authority"
-            android:textAlignment="viewStart"
+          android:text="@string/most_common_symptoms_nfever_ndry_cough_ntiredness_n_nless_common_symptoms_naches_and_pains_nsore_throat_ndiarrhoea_nconjunctivitis_nheadache_nloss_of_taste_or_smell_na_rash_on_skin_or_discolouration_of_fingers_or_toes"
             android:textColor="#020202" />
 
         <WebView
@@ -49,6 +45,7 @@
             android:layout_marginStart="40dp"
             android:id="@+id/Web1"
             android:layout_marginEnd="40dp"
+            android:layout_marginBottom="30dp"
             android:layout_height="216dp" />
     </LinearLayout>
 
