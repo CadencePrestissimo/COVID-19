@@ -20,15 +20,15 @@ Clean your hands often\nUse soap and water/sanitizer\nMaintain a safe distance f
     <string name="todo">TODO</string>
     <string name="hello">Most common symptoms:\n fever\n dry cough\n tiredness\n\n Less common symptoms:\n aches and pains\n sore throat\n diarrhoea\n conjunctivitis\n headache\n loss of taste or smell\n a rash on skin, or discolouration of fingers or toes\n\n\n To prevent the spread of COVID-19:\n Clean your hands often. Use soap and water, or an alcohol-based hand rub.\n Maintain a safe distance from anyone who is coughing or sneezing.\n Wear a mask when physical distancing is not possible.\n Don’t touch your eyes, nose or mouth.\n Cover your nose and mouth with your bent elbow or a tissue when you cough or sneeze.\n Stay home if you feel unwell.\n If you have a fever, cough and difficulty breathing, seek medical attention.\n Calling in advance allows your healthcare provider to quickly direct you to the right health facility. This protects you, and prevents the spread of viruses and other infections. \nMasks\n Masks can help prevent the spread of the virus from the person wearing the mask to others.\n Masks alone do not protect against COVID-19, and should be combined with physical distancing and hand hygiene. Follow the advice provided by your local health authority.</string>
     <string name="todo1">TODO</string>
-    <string name="world_cases">More World Cases</string>
-    <string name="india_cases">More India Cases</string>
+    <string name="world_cases">More Info: World Cases</string>
+    <string name="india_cases">More Info: India Cases</string>
     <string name="todo11">TODO</string>
     <string name="total_tests">Total Tests</string>
-    <string name="recovered">Recovered</string>
+
     <string name="critical">Critical</string>
-    <string name="active">Active</string>
+
     <string name="today_deaths">Today Deaths</string>
-    <string name="deaths">Deaths</string>
+
     <string name="today_cases">Today cases</string>
     <string name="worls_stats">Worlds Cases</string>
     <string name="_20" />
@@ -36,4 +36,29 @@ Clean your hands often\nUse soap and water/sanitizer\nMaintain a safe distance f
     <string name="confirmed_covid_19_cases">Confirmed Covid-19 Cases</string>
     <string name="no_cases">No Cases</string>
     <string name="updated_a_second_ago">Updated a second ago ....</string>
+    <string name="city_name_with_first_letter_capital"> Keep first letter Capital</string>
+    <string name="name">Name</string>
+    <string name="enter_the_city">Enter the Country</string>
+    <string name="todo111">TODO</string>
+    <string name="show">Show</string>
+    <string name="enter_the_city1">Enter the City</string>
+    <string name="state_wise1">State-Wise</string>
+    <string name="india_district_wise">India District Wise</string>
+    <string name="india_state_wise">India State Wise</string>
+    <string name="active">Active</string>
+    <string name="confirmed">Confirmed</string>
+    <string name="recovered">Recovered</string>
+    <string name="deaths">Deaths</string>
+    <string name="todo12">TODO</string>
+    <string name="todo13">TODO</string>
+    <string name="to14">TODO</string>
+    <string name="todo15">TODO</string>
+    <string name="loading">Loading...</string>
+    <string name="death_rate">Death Rate</string>
+    <string name="active_rate">Active Rate</string>
+    <string name="recovered_rate">Recovered Rate</string>
+    <string name="keep_first_letter_capital">Keep first letter capital</string>
+    <string name="go">Go</string>
+    <string name="enter_the_district">Enter The District</string>
+    <string name="enter_the_state">Enter the State</string>
 </resources>

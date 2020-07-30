@@ -17,12 +17,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:contentDescription="@string/todo"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
             app:srcCompat="@drawable/img4" />
 
         <TextView
             android:id="@+id/textView16"
             android:layout_width="match_parent"
-            android:layout_height="46dp"
+            android:layout_height="37dp"
             android:background="#7986CB"
             android:text="@string/prevention"
             android:textAlignment="center"

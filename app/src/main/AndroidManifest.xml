@@ -2,20 +2,21 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.covid_19">
 
+    <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
-        android:allowBackup="true"
         android:icon="@mipmap/icon"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/icon_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".world"></activity>
-        <activity android:name=".district_list" />
+        <activity android:name=".call_helpline"></activity>
+        <activity android:name=".India_District" />
+        <activity android:name=".India_State" />
+        <activity android:name=".world" />
         <activity android:name=".MainActivity6" />
-        <activity android:name=".negatively" />
         <activity android:name=".MainActivity5" />
         <activity android:name=".MainActivity4" />
         <activity android:name=".MainActivity3" />

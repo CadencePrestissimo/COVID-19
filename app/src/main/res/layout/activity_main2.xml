@@ -62,11 +62,11 @@
 
     <WebView
         android:id="@+id/webView"
-        android:layout_width="345dp"
-        android:layout_height="200dp"
-        android:layout_marginStart="29dp"
+        android:layout_width="363dp"
+        android:layout_height="205dp"
+        android:layout_marginStart="35dp"
         android:layout_marginTop="12dp"
-        android:layout_marginEnd="37dp"
+        android:layout_marginEnd="24dp"
         android:layout_marginBottom="84dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -17,11 +17,21 @@ import java.net.URLConnection;
 public class MainActivity6 extends AppCompatActivity {
 
 
-  /*  public void new1(View view)
+    public void world(View view)
     {
-        Intent intent =new Intent(this, negatively.class);
+        Intent intent =new Intent(this, world.class);
         startActivity(intent);
-    }*/
+    }
+    public void India(View view)
+    {
+        Intent intent =new Intent(this, world.class);
+        startActivity(intent);
+    }
+    public void India1(View view)
+    {
+        Intent intent =new Intent(this, India_State.class);
+        startActivity(intent);
+    }
     TextView t1, t2, t3, t4, t5, t6, t7;
 
     @Override

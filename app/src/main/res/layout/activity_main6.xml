@@ -12,7 +12,7 @@
         <ImageView
             android:id="@+id/imageView3"
             android:layout_width="match_parent"
-            android:layout_height="232dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:contentDescription="@string/todo11"
             app:srcCompat="@drawable/vggvg" />
@@ -39,32 +39,51 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="14dp"
-        android:layout_marginBottom="96dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="108dp"
         android:background="@drawable/corners"
         android:backgroundTint="#E57373"
+        android:onClick="world"
+        android:textStyle="bold"
         android:text="@string/world_cases" />
 
     <Button
         android:id="@+id/button1"
-        android:layout_width="373dp"
+        android:layout_width="186dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="14dp"
-        android:layout_marginBottom="39dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="53dp"
         android:background="@drawable/corners"
         android:backgroundTint="#E57373"
-        android:text="@string/india_cases" />
+        android:onClick="India1"
+        android:text="@string/india_state_wise"
+        android:textStyle="bold" />
 
-    <LinearLayout
-        android:layout_width="368dp"
-        android:layout_height="297dp"
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
 
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="21dp"
-        android:layout_marginBottom="153dp"
+        android:layout_marginEnd="206dp"
+        android:layout_marginBottom="51dp"
+        android:background="@drawable/corners"
+        android:backgroundTint="#E57373"
+        android:onClick="India"
+        android:textStyle="bold"
+        android:text="@string/india_district_wise" />
+
+    <LinearLayout
+        android:layout_width="369dp"
+        android:layout_height="294dp"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="174dp"
         android:orientation="vertical">
 
         <TextView

@@ -43,10 +43,10 @@
 
     <WebView
         android:id="@+id/web"
-        android:layout_width="346dp"
-        android:layout_height="216dp"
+        android:layout_width="363dp"
+        android:layout_height="205dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="37dp"
+        android:layout_marginEnd="28dp"
         android:layout_marginBottom="107dp" />
 </RelativeLayout>
