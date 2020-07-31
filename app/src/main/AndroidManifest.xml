@@ -12,7 +12,9 @@
         android:roundIcon="@mipmap/icon_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".call_helpline"></activity>
+        <activity android:name=".ArticleActivity"></activity>
+        <activity android:name=".madeby" />
+        <activity android:name=".call_helpline" />
         <activity android:name=".India_District" />
         <activity android:name=".India_State" />
         <activity android:name=".world" />

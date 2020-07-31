@@ -51,6 +51,7 @@ public class world extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_world);
+
         imageView = (ImageView) findViewById(R.id.imageView7);
         layout = (LinearLayout) findViewById(R.id.list1);
         editText=(EditText) findViewById(R.id.editTextTextPersonName);

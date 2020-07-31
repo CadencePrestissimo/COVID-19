@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:scrollbars="vertical"
+    android:background="@android:color/white"
     tools:context=".MainActivity3">
 
 
@@ -12,17 +13,19 @@
         android:id="@+id/imageView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="523dp"
-        app:srcCompat="@drawable/img2"
-        android:contentDescription="@string/todo" />
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="530dp"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/img2" />
 
     <TextView
         android:id="@+id/textView12"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="482dp"
+        android:layout_marginBottom="500dp"
         android:background="@android:color/darker_gray"
         android:padding="5dp"
         android:text="@string/sources"
@@ -32,21 +35,21 @@
 
     <TextView
         android:id="@+id/textView13"
-        android:layout_width="342dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="35dp"
-        android:layout_marginBottom="338dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="313dp"
+        android:padding="20dp"
         android:text="@string/the_virus_that_causes_covid_19_is_mainly_transmitted_through_droplets_generated_when_an_infected_person_coughs_sneezes_or_exhales_these_droplets_are_too_heavy_to_hang_in_the_air_and_quickly_fall_on_floors_or_surfaces_you_can_be_infected_by_breathing_in_the_virus_if_you_are_within_close_proximity_of_someone_who_has_covid_19_or_by_touching_a_contaminated_surface_and_then_your_eyes_nose_or_mouth"
         android:textColor="#020202" />
 
     <WebView
         android:id="@+id/web"
-        android:layout_width="363dp"
-        android:layout_height="205dp"
+        android:layout_width="match_parent"
+        android:layout_height="229dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="28dp"
-        android:layout_marginBottom="107dp" />
+        android:layout_marginBottom="90dp" />
 </RelativeLayout>

@@ -14,7 +14,7 @@
         android:layout_height="45dp"
         android:layout_marginStart="1dp"
         android:layout_marginEnd="2dp"
-        android:text="HelpLine Info:"
+        android:text="@string/helpline_info"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="30sp"
@@ -34,8 +34,41 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView15">
+        app:layout_constraintTop_toBottomOf="@+id/textView15"/>
 
-    </ListView>
+    <LinearLayout
+        android:layout_width="244dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginEnd="480dp"
+        android:layout_marginBottom="780dp"
+        android:background="@drawable/corners"
+        android:backgroundTint="#BA68C8"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/goat"
+        app:layout_constraintStart_toEndOf="@+id/statelist"
+        app:layout_constraintTop_toBottomOf="@+id/statelist">
+
+        <TextView
+            android:id="@+id/textView42"
+            android:layout_width="229dp"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:textColor="@android:color/black"
+            android:layout_height="42dp"
+            android:text='' />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="hello"
+            android:background="@drawable/corners"
+            android:backgroundTint="#FFFFFF"
+            android:text="@string/dial" />
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

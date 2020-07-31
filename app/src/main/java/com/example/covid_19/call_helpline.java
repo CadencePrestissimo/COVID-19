@@ -10,7 +10,9 @@ import android.content.pm.PackageManager;
 import android.graphics.Color;
 import android.net.Uri;
 import android.os.AsyncTask;
+import android.os.Build;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
@@ -33,13 +35,69 @@ public class call_helpline extends AppCompatActivity {
 
     ListView listView;
     String str;
+    int g=0;
+    LinearLayout linearLayout;
+    String cases;
+    TextView textView1;
     ArrayList<String> arrayList;
+    public void hello(View view)
+    {
+        callPhoneNumber();
+    }
+    @Override
+    public void onRequestPermissionsResult(int requestCode, String[] permissions,
+                                           int[] grantResults)
+    {
+        if(requestCode == 101)
+        {
+            if(grantResults[0] == PackageManager.PERMISSION_GRANTED)
+            {
+                callPhoneNumber();
+            }
+            else
+            {
+                Log.e("result","Permission not Granted");
+            }
+        }
+    }
+    public void callPhoneNumber()
+    {
+        try
+        {
+            if(Build.VERSION.SDK_INT > 22)
+            {
+                if (ActivityCompat.checkSelfPermission(this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
+                    // TODO: Consider calling
+
+                    ActivityCompat.requestPermissions(call_helpline.this, new String[]{Manifest.permission.CALL_PHONE}, 101);
+
+                    return;
+                }
+
+                Intent callIntent = new Intent(Intent.ACTION_CALL);
+                callIntent.setData(Uri.parse("tel:" + cases));
+                startActivity(callIntent);
+
+            }
+            else {
+                Intent callIntent = new Intent(Intent.ACTION_CALL);
+                callIntent.setData(Uri.parse("tel:" + cases));
+                startActivity(callIntent);
+            }
+        }
+        catch (Exception ex)
+        {
+            ex.printStackTrace();
+        }
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_call_helpline);
         listView = (ListView) findViewById(R.id.statelist);
+        textView1=findViewById(R.id.textView42);
+        linearLayout =findViewById(R.id.goat);
         arrayList = new ArrayList<>();
         arrayList.add("Maharashtra");
         arrayList.add("Tamil Nadu");
@@ -99,9 +157,21 @@ public class call_helpline extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> a, View v, int position,
                                     long id) {
-                str = (String) listView.getItemAtPosition(position);
-                DownloadTask task = new DownloadTask();
-                task.execute("https://covid-19india-api.herokuapp.com/v2.0/helpline_numbers");
+
+                if(g==0) {
+                    g=1;
+                    linearLayout.setVisibility(View.VISIBLE);
+                    str = (String) listView.getItemAtPosition(position);
+                    DownloadTask task = new DownloadTask();
+                    task.execute("https://covid-19india-api.herokuapp.com/v2.0/helpline_numbers");
+                }
+                else{
+                    linearLayout.setVisibility(View.INVISIBLE);
+                    textView1.setText("Loading...");
+                    g=0;
+                }
+
+
 
             }
         });
@@ -153,21 +223,9 @@ public class call_helpline extends AppCompatActivity {
 
                     JSONObject jsonObject = jsonObject2.getJSONObject(i);
                     if (jsonObject.getString("state_or_UT").equalsIgnoreCase(str)) {
-                        String cases = jsonObject.getString("helpline_number");
-                        Toast.makeText(getApplicationContext(),cases,Toast.LENGTH_LONG).show();
-                        Intent callIntent = new Intent(Intent.ACTION_CALL);
-                        callIntent.setData(Uri.parse("tel:"+cases));
-
-                        if (ActivityCompat.checkSelfPermission(call_helpline.this,
-                                Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
-                            return;
+                       cases = jsonObject.getString("helpline_number");
+                        textView1.setText(cases);
                         }
-                        startActivity(callIntent);
-                        }
-
-
-
-
 
             }} catch (Exception ignored) {
 

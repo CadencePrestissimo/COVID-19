@@ -24,7 +24,7 @@ public class MainActivity6 extends AppCompatActivity {
     }
     public void India(View view)
     {
-        Intent intent =new Intent(this, world.class);
+        Intent intent =new Intent(this, India_District.class);
         startActivity(intent);
     }
     public void India1(View view)

@@ -19,7 +19,7 @@ public class MainActivity3 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main3);
 
-        String frameVideo =(String)"<iframe width=\"363\" height=\"205\" src=\"https://www.youtube.com/embed/BtN-goy9VOY\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>";
+        String frameVideo =(String)"<iframe width=\"400\" height=\"229\" src=\"https://www.youtube.com/embed/BtN-goy9VOY\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>";
 
         displayVideo = (WebView)findViewById(R.id.web);
         displayVideo.setWebViewClient(new WebViewClient(){

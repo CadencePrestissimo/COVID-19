@@ -51,8 +51,8 @@
 
     <LinearLayout
         android:id="@+id/list1"
-        android:layout_width="357dp"
-        android:layout_height="339dp"
+        android:layout_width="361dp"
+        android:layout_height="214dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="29dp"
@@ -75,31 +75,97 @@
             android:textAlignment="center"
             android:textColor="#FFFFFF" />
 
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/textView26"
-                android:layout_width="173dp"
+                android:id="@+id/textView30"
+                android:layout_width="175dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="#B9000000"
                 android:paddingStart="20dp"
                 android:paddingEnd="20dp"
-                android:text="@string/today_cases"
+                android:textAlignment="center"
+                android:text="@string/confirmed"
                 android:textColor="@android:color/white"
                 android:textSize="20sp" />
 
             <TextView
-                android:id="@+id/textView27"
+                android:id="@+id/textView31"
                 android:layout_width="175dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:paddingStart="20dp"
                 android:paddingEnd="20dp"
                 android:text=""
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="175dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#B9000000"
+                android:paddingStart="20dp"
+                android:textAlignment="center"
+                android:paddingEnd="20dp"
+                android:text="@string/active"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="175dp"
+                android:layout_height="51dp"
+                android:layout_weight="1"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="175dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#B9000000"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text="@string/recovered"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="175dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:text=""
+                android:textAlignment="center"
                 android:textColor="@android:color/white"
                 android:textSize="20sp" />
         </LinearLayout>
@@ -117,6 +183,7 @@
                 android:background="#B9000000"
                 android:paddingStart="20dp"
                 android:paddingEnd="20dp"
+                android:textAlignment="center"
                 android:text="@string/deaths"
                 android:textColor="@android:color/white"
                 android:textSize="20sp" />
@@ -129,151 +196,7 @@
                 android:paddingStart="20dp"
                 android:paddingEnd="20dp"
                 android:text=""
-                android:textColor="@android:color/white"
-                android:textSize="20sp" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:orientation="horizontal">
-
-            <TextView
-                android:id="@+id/textView30"
-                android:layout_width="175dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:background="#B9000000"
-                android:paddingStart="20dp"
-                android:paddingEnd="20dp"
-                android:text="@string/today_deaths"
-                android:textColor="@android:color/white"
-                android:textSize="20sp" />
-
-            <TextView
-                android:id="@+id/textView31"
-                android:layout_width="175dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:paddingStart="20dp"
-                android:paddingEnd="20dp"
-                android:text=""
-                android:textColor="@android:color/white"
-                android:textSize="20sp" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:orientation="horizontal">
-
-            <TextView
-                android:id="@+id/textView32"
-                android:layout_width="175dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:background="#B9000000"
-                android:paddingStart="20dp"
-                android:paddingEnd="20dp"
-                android:text="@string/active"
-                android:textColor="@android:color/white"
-                android:textSize="20sp" />
-
-            <TextView
-                android:id="@+id/textView33"
-                android:layout_width="175dp"
-                android:layout_height="51dp"
-                android:layout_weight="1"
-                android:paddingStart="20dp"
-                android:paddingEnd="20dp"
-                android:text=""
-                android:textColor="@android:color/white"
-                android:textSize="20sp" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:orientation="horizontal">
-
-            <TextView
-                android:id="@+id/textView34"
-                android:layout_width="175dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:background="#B9000000"
-                android:paddingStart="20dp"
-                android:paddingEnd="20dp"
-                android:text="@string/critical"
-                android:textColor="@android:color/white"
-                android:textSize="20sp" />
-
-            <TextView
-                android:id="@+id/textView35"
-                android:layout_width="175dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:paddingStart="20dp"
-                android:paddingEnd="20dp"
-                android:text=""
-                android:textColor="@android:color/white"
-                android:textSize="20sp" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:orientation="horizontal">
-
-            <TextView
-                android:id="@+id/textView36"
-                android:layout_width="175dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:background="#B9000000"
-                android:paddingStart="20dp"
-                android:paddingEnd="20dp"
-                android:text="@string/recovered"
-                android:textColor="@android:color/white"
-                android:textSize="20sp" />
-
-            <TextView
-                android:id="@+id/textView37"
-                android:layout_width="175dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:paddingStart="20dp"
-                android:paddingEnd="20dp"
-                android:text=""
-                android:textColor="@android:color/white"
-                android:textSize="20sp" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:orientation="horizontal">
-
-            <TextView
-                android:id="@+id/textView38"
-                android:layout_width="175dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:background="#B9000000"
-                android:paddingStart="20dp"
-                android:paddingEnd="20dp"
-                android:text="@string/total_tests"
-                android:textColor="@android:color/white"
-                android:textSize="20sp" />
-
-            <TextView
-                android:id="@+id/textView39"
-                android:layout_width="175dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:paddingStart="20dp"
-                android:paddingEnd="20dp"
-                android:text=""
+                android:textAlignment="center"
                 android:textColor="@android:color/white"
                 android:textSize="20sp" />
         </LinearLayout>
@@ -342,6 +265,7 @@
         android:layout_marginBottom="15dp"
         android:background="@drawable/corners"
         android:backgroundTint="#F06292"
+        android:onClick="go"
         android:text="@string/go"
         app:layout_constraintBottom_toTopOf="@+id/imageView7"
         app:layout_constraintEnd_toEndOf="parent"

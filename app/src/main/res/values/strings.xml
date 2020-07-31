@@ -17,7 +17,6 @@
     <string name="most_common_symptoms_nfever_ndry_cough_ntiredness_n_nless_common_symptoms_naches_and_pains_nsore_throat_ndiarrhoea_nconjunctivitis_nheadache_nloss_of_taste_or_smell_na_rash_on_skin_or_discolouration_of_fingers_or_toes">Most common symptoms: \nfever \ndry cough \ntiredness\n \nLess common symptoms: \naches and pains \nsore throat \ndiarrhoea \nconjunctivitis \nheadache \nloss of taste or smell \na rash on skin, or discolouration of fingers or toes\n\nTo prevent the spread of COVID-19:
 Clean your hands often\nUse soap and water/sanitizer\nMaintain a safe distance from anyone who is coughing or sneezing\nWear a mask when physical distancing is not possible\nDon’t touch your eyes, nose or mouth\nCover your nose and mouth with your bent elbow or a tissue when you cough or sneeze\nStay home if you feel unwell\nIf you have a fever, cough and difficulty breathing, seek medical attention\nCalling in advance allows your healthcare provider to quickly direct you to the right health facility\nThis protects you, and prevents the spread of viruses and other infections\nMasks can help prevent the spread of the virus from the person wearing the mask to others\nMasks alone do not protect against COVID-19, and should be combined with physical distancing and hand hygiene\n Follow the advice provided by your local health authority</string>
     <string name="textview">TextView</string>
-    <string name="todo">TODO</string>
     <string name="hello">Most common symptoms:\n fever\n dry cough\n tiredness\n\n Less common symptoms:\n aches and pains\n sore throat\n diarrhoea\n conjunctivitis\n headache\n loss of taste or smell\n a rash on skin, or discolouration of fingers or toes\n\n\n To prevent the spread of COVID-19:\n Clean your hands often. Use soap and water, or an alcohol-based hand rub.\n Maintain a safe distance from anyone who is coughing or sneezing.\n Wear a mask when physical distancing is not possible.\n Don’t touch your eyes, nose or mouth.\n Cover your nose and mouth with your bent elbow or a tissue when you cough or sneeze.\n Stay home if you feel unwell.\n If you have a fever, cough and difficulty breathing, seek medical attention.\n Calling in advance allows your healthcare provider to quickly direct you to the right health facility. This protects you, and prevents the spread of viruses and other infections. \nMasks\n Masks can help prevent the spread of the virus from the person wearing the mask to others.\n Masks alone do not protect against COVID-19, and should be combined with physical distancing and hand hygiene. Follow the advice provided by your local health authority.</string>
     <string name="todo1">TODO</string>
     <string name="world_cases">More Info: World Cases</string>
@@ -61,4 +60,9 @@ Clean your hands often\nUse soap and water/sanitizer\nMaintain a safe distance f
     <string name="go">Go</string>
     <string name="enter_the_district">Enter The District</string>
     <string name="enter_the_state">Enter the State</string>
+    <string name="helpline_info">HelpLine Info:</string>
+    <string name="dial">Dial</string>
+    <string name="made_by">Made By:</string>
+    <string name="pavika_chaudhary">Pavika Chaudhary</string>
+    <string name="todo">TODO</string>
 </resources>

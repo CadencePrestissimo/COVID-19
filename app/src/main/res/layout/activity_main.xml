@@ -58,12 +58,12 @@
 
     <ImageButton
         android:id="@+id/b4"
-        android:layout_width="159dp"
-        android:layout_height="142dp"
+        android:layout_width="147dp"
+        android:layout_height="148dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="-5dp"
-        android:layout_marginBottom="302dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="296dp"
         android:background="#040303"
         android:contentDescription="@string/todo"
         app:srcCompat="@drawable/b4" />
@@ -199,9 +199,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="32dp"
-        android:layout_marginBottom="149dp"
-        android:text="@string/travel_history"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="145dp"
+        android:text="@string/made_by"
         android:textColor="#050505"
         android:textSize="16sp"
         android:textStyle="bold" />
